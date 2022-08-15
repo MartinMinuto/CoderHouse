@@ -53,6 +53,12 @@ header{
   border-radius: 10px;
 }
 
+.lista-nav a:hover{
+  background-color: rgb(207, 99, 162);
+  transition: 0.8s;
+  padding: 15px;
+}
+
 main{
   background-color: #d6a6d1;
   margin-bottom: 5vh;
@@ -121,6 +127,12 @@ aside a{
   margin-top: 40px;
   margin-bottom: 30px;
   font-size: 1.4rem;
+}
+
+.footer-left a:hover{
+  background-color: rgb(207, 99, 162);
+  transition: 1s;
+  padding: 15px;
 }
 
 .footer-right h4{
