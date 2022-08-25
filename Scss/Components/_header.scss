@@ -1,0 +1,74 @@
+.navbar{
+    padding: 0;
+  }
+  
+  .navbar-brand{
+    font-size: 2rem;
+    color: white;
+    :hover{
+        color: rgb(158, 74, 89);
+    }
+  }
+
+  .nav-link:hover{
+    color: white;
+  }
+  
+  a.nav-link{
+    color: black;
+    border-radius: 40px;
+    display: inline-block;
+    :hover{
+        padding: 5px;
+        background-color: rgb(158, 74, 89);
+        color: white;
+        transition: 0,2s;
+        border-radius: 40px;
+        display: inline-block;
+    }
+  }
+  
+  nav{
+    background-color: rgb(177, 133, 141);
+  }
+  
+  .container-fluid{
+    background-color: rgb(177, 133, 141);
+  }
+  
+  .btn{
+    border: rgb(158, 74, 89)(--bs-btn-border-width)
+     solid rgb(158, 74, 89)(--bs-btn-border-color);
+     :hover{
+        color: white;
+        background-color: rgb(158, 74, 89);
+        border-color: rgb(158, 74, 89);
+     }
+  }
+  
+  .btn-outline-success{
+     color: white;
+     border-color: rgb(158, 74, 89);
+     background-color: rgb(158, 74, 89);
+     :active{
+        background-color: rgb(158, 74, 89);
+        border-color: rgb(158, 74, 89);
+        --bs-btn-focus-shadow-rgb: 158, 74, 89;
+     }
+  }
+  
+  .dropdown-menu{
+    background-color: rgb(177, 133, 141);
+    border-radius: 5px;
+  }
+  
+  .dropdown-item{
+    color: black;
+    :hover{
+        background-color: rgb(158, 74, 89);
+        color: white;
+        border-radius: 5px;
+        display: inline;
+    }
+  }
+  

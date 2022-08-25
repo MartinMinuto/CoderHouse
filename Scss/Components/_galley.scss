@@ -1,0 +1,84 @@
+
+  
+  .Galeria-grilla{
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5,30vh);
+    grid-template-areas: 
+    "imagen1 imagen2 imagen2"
+    "imagen1 imagen3 imagen3"
+    "imagen4 imagen4 imagen5"
+    "imagen4 imagen4 imagen5"
+    "imagen6 imagen6 imagen6";
+    gap: 5px;
+    >img{
+        width: 100%;
+        height: 100%;
+  
+        object-fit: cover;
+        transition: 1s;
+        :hover{
+            transform: scale(1.1);
+        }
+    }
+  }
+  
+  .imagen1{
+   grid-area: imagen1;
+  }
+  
+  .imagen2{
+    grid-area: imagen2;
+  }
+  
+  .imagen3{
+    grid-area: imagen3;
+  }
+  
+  .imagen4{
+    grid-area: imagen4;
+  }
+  
+  .imagen5{
+    grid-area: imagen5;
+  }
+  
+  .imagen6{
+    grid-area: imagen6;
+  }
+  
+  .MainGaleria{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    h2{
+        font-size: 1.5rem;
+    }
+  }
+  
+  
+  @media (min-width: 376px) and (max-width: 768px){
+    .MainGaleria h2{
+      font-size: 2.2rem;
+    }
+  }
+  
+  @media (min-width: 769px) and (max-width: 1024px){
+    .MainGaleria h2{
+      font-size: 3rem;
+    }
+  }
+  
+  @media (min-width: 1025px) and (max-width: 1440px){
+    .MainGaleria h2{
+      font-size: 4rem;
+    }
+  }
+  
+  @media (min-width: 1441px) and (max-width: 4000px){
+    .MainGaleria h2{
+      font-size: 5rem;
+    }
+  }
+  
