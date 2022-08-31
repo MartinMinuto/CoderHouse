@@ -1,8 +1,6 @@
   
   .centrado{
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    @include centrado;
   }
   
   .footer-left{
@@ -18,7 +16,7 @@
             justify-content: space-around;
             padding: 10px;
             color: white;
-            :hover{
+            &:hover{
                 font-size: 1.5rem;
                 color: rgb(158, 74, 89);
              }
@@ -36,9 +34,7 @@
   }
   
   .map2{
-    position: flex;
-    justify-content: center;
-    text-align: center;
+    @include centrado;
   }
   
   .map{

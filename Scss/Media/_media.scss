@@ -1,30 +1,30 @@
 
-  .promocion h2{
+  .promocion h1{
     text-align: center;
     font-size: 1.5rem;
     padding: 15px;
   }
   
   @media (min-width: 376px) and (max-width: 768px){
-    .promocion h2{
+    .promocion h1{
       font-size: 2.2rem;
     }
   }
   
   @media (min-width: 769px) and (max-width: 1024px){
-    .promocion h2{
+    .promocion h1{
       font-size: 3rem;
     }
   }
   
   @media (min-width: 1025px) and (max-width: 1440px){
-    .promocion h2{
+    .promocion h1{
       font-size: 4rem;
     }
   }
   
   @media (min-width: 1441px) and (max-width: 4000px){
-    .promocion h2{
+    .promocion h1{
       font-size: 5rem;
     }
   }
@@ -99,32 +99,32 @@
     }
   }
   
-  .articulo2 h3{
+  .articulo2 h2{
     text-align: center;
     font-size: 1.5rem;
     padding: 15px;
   }
   
   @media (min-width: 376px) and (max-width: 768px){
-    .articulo2 h3{
+    .articulo2 h2{
       font-size: 2.2rem;
     }
   }
   
   @media (min-width: 769px) and (max-width: 1024px){
-    .articulo2 h3{
+    .articulo2 h2{
       font-size: 3rem;
     }
   }
   
   @media (min-width: 1025px) and (max-width: 1440px){
-    .articulo2 h3{
+    .articulo2 h2{
       font-size: 4rem;
     }
   }
   
   @media (min-width: 1441px) and (max-width: 4000px){
-    .articulo2 h3{
+    .articulo2 h2{
       font-size: 5rem;
     }
   }
@@ -138,11 +138,11 @@
     .abajo{
       text-align: center;
       width: 100vw;
-      height: 90vh;
+      height: 100vh;
     } 
     .abajo .imagen{
-      width: 70vw;
-      height: 80vh;
+      width: 60vw;
+      height: 100vh;
     }
   }
   

@@ -5,19 +5,18 @@
   }
   
   .position{
-    text-align: center;
-    display: flex;
-    justify-content: center;
+    @include centrado;
     padding: 30px;
     padding-top: 60px;
   }
   
   .enviar{
     font-size: 1.5rem;
-    border: 1px solid rgb(158, 74, 89);
+    border: none;
     background-color: rgb(177, 133, 141);
     border-radius: 15px;
-    :hover{
+    &:hover{
+         border: 1px solid rgb(158, 74, 89);
          background-color: rgb(158, 74, 89);
          border-radius: 15px;
          color: white;

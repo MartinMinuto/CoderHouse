@@ -12,3 +12,9 @@
   #cuerpo{
     background-color:rgb(177, 133, 141);
   }
+
+  @mixin centrado {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }

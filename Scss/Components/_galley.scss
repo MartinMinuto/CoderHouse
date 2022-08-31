@@ -18,7 +18,7 @@
   
         object-fit: cover;
         transition: 1s;
-        :hover{
+        &:hover{
             transform: scale(1.1);
         }
     }
@@ -49,35 +49,33 @@
   }
   
   .MainGaleria{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    h2{
+    @include centrado;
+    h1{
         font-size: 1.5rem;
     }
   }
   
   
   @media (min-width: 376px) and (max-width: 768px){
-    .MainGaleria h2{
+    .MainGaleria h1{
       font-size: 2.2rem;
     }
   }
   
   @media (min-width: 769px) and (max-width: 1024px){
-    .MainGaleria h2{
+    .MainGaleria h1{
       font-size: 3rem;
     }
   }
   
   @media (min-width: 1025px) and (max-width: 1440px){
-    .MainGaleria h2{
+    .MainGaleria h1{
       font-size: 4rem;
     }
   }
   
   @media (min-width: 1441px) and (max-width: 4000px){
-    .MainGaleria h2{
+    .MainGaleria h1{
       font-size: 5rem;
     }
   }

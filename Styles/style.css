@@ -21,7 +21,7 @@ a {
   font-size: 2rem;
   color: white;
 }
-.navbar-brand :hover {
+.navbar-brand:hover {
   color: rgb(158, 74, 89);
 }
 
@@ -34,7 +34,7 @@ a.nav-link {
   border-radius: 40px;
   display: inline-block;
 }
-a.nav-link :hover {
+a.nav-link:hover {
   padding: 5px;
   background-color: rgb(158, 74, 89);
   color: white;
@@ -54,7 +54,7 @@ nav {
 .btn {
   border: rgb(158, 74, 89) --bs-btn-border-width solid rgb(158, 74, 89) --bs-btn-border-color;
 }
-.btn :hover {
+.btn:hover {
   color: white;
   background-color: rgb(158, 74, 89);
   border-color: rgb(158, 74, 89);
@@ -65,7 +65,7 @@ nav {
   border-color: rgb(158, 74, 89);
   background-color: rgb(158, 74, 89);
 }
-.btn-outline-success :active {
+.btn-outline-success:active {
   background-color: rgb(158, 74, 89);
   border-color: rgb(158, 74, 89);
   --bs-btn-focus-shadow-rgb: 158, 74, 89;
@@ -79,11 +79,31 @@ nav {
 .dropdown-item {
   color: black;
 }
-.dropdown-item :hover {
+.dropdown-item:hover {
   background-color: rgb(158, 74, 89);
   color: white;
   border-radius: 5px;
   display: inline;
+}
+
+.carousel-inner {
+  width: 100vw;
+  height: auto;
+}
+.carousel-inner .carousel-item {
+  width: 100vw;
+  height: auto;
+}
+.carousel-inner .carousel-item:active {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+.carousel-inner .carou {
+  width: 100vw;
+  height: 100vh;
 }
 
 .one {
@@ -92,8 +112,8 @@ nav {
 }
 
 .position {
-  text-align: center;
   display: flex;
+  text-align: center;
   justify-content: center;
   padding: 30px;
   padding-top: 60px;
@@ -101,11 +121,12 @@ nav {
 
 .enviar {
   font-size: 1.5rem;
-  border: 1px solid rgb(158, 74, 89);
+  border: none;
   background-color: rgb(177, 133, 141);
   border-radius: 15px;
 }
-.enviar :hover {
+.enviar:hover {
+  border: 1px solid rgb(158, 74, 89);
   background-color: rgb(158, 74, 89);
   border-radius: 15px;
   color: white;
@@ -184,7 +205,7 @@ nav {
   object-fit: cover;
   transition: 1s;
 }
-.Galeria-grilla > img :hover {
+.Galeria-grilla > img:hover {
   transform: scale(1.1);
 }
 
@@ -214,37 +235,37 @@ nav {
 
 .MainGaleria {
   display: flex;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
 }
-.MainGaleria h2 {
+.MainGaleria h1 {
   font-size: 1.5rem;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-  .MainGaleria h2 {
+  .MainGaleria h1 {
     font-size: 2.2rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .MainGaleria h2 {
+  .MainGaleria h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .MainGaleria h2 {
+  .MainGaleria h1 {
     font-size: 4rem;
   }
 }
 @media (min-width: 1441px) and (max-width: 4000px) {
-  .MainGaleria h2 {
+  .MainGaleria h1 {
     font-size: 5rem;
   }
 }
 .centrado {
   display: flex;
-  justify-content: center;
   text-align: center;
+  justify-content: center;
 }
 
 .footer-left {
@@ -263,7 +284,7 @@ nav {
   padding: 10px;
   color: white;
 }
-.footer-left li a :hover {
+.footer-left li a:hover {
   font-size: 1.5rem;
   color: rgb(158, 74, 89);
 }
@@ -278,9 +299,9 @@ nav {
 }
 
 .map2 {
-  position: flex;
-  justify-content: center;
+  display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .map {
@@ -310,29 +331,29 @@ nav {
     justify-content: space-around;
   }
 }
-.promocion h2 {
+.promocion h1 {
   text-align: center;
   font-size: 1.5rem;
   padding: 15px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-  .promocion h2 {
+  .promocion h1 {
     font-size: 2.2rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .promocion h2 {
+  .promocion h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .promocion h2 {
+  .promocion h1 {
     font-size: 4rem;
   }
 }
 @media (min-width: 1441px) and (max-width: 4000px) {
-  .promocion h2 {
+  .promocion h1 {
     font-size: 5rem;
   }
 }
@@ -397,29 +418,29 @@ nav {
     font-size: 2.5rem;
   }
 }
-.articulo2 h3 {
+.articulo2 h2 {
   text-align: center;
   font-size: 1.5rem;
   padding: 15px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
-  .articulo2 h3 {
+  .articulo2 h2 {
     font-size: 2.2rem;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
-  .articulo2 h3 {
+  .articulo2 h2 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1025px) and (max-width: 1440px) {
-  .articulo2 h3 {
+  .articulo2 h2 {
     font-size: 4rem;
   }
 }
 @media (min-width: 1441px) and (max-width: 4000px) {
-  .articulo2 h3 {
+  .articulo2 h2 {
     font-size: 5rem;
   }
 }
@@ -432,11 +453,11 @@ nav {
   .abajo {
     text-align: center;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
   }
   .abajo .imagen {
-    width: 70vw;
-    height: 80vh;
+    width: 60vw;
+    height: 100vh;
   }
 }
 .click {

@@ -1,3 +1,8 @@
+$color:(
+    fondo: rgb(177, 133, 141),
+  );
+
+
 .navbar{
     padding: 0;
   }
@@ -5,8 +10,8 @@
   .navbar-brand{
     font-size: 2rem;
     color: white;
-    :hover{
-        color: rgb(158, 74, 89);
+    &:hover{
+        color:rgb(158, 74, 89);
     }
   }
 
@@ -18,9 +23,9 @@
     color: black;
     border-radius: 40px;
     display: inline-block;
-    :hover{
+    &:hover{
         padding: 5px;
-        background-color: rgb(158, 74, 89);
+        background-color:rgb(158, 74, 89);
         color: white;
         transition: 0,2s;
         border-radius: 40px;
@@ -29,17 +34,17 @@
   }
   
   nav{
-    background-color: rgb(177, 133, 141);
+    background-color:map-get($color, fondo);
   }
   
   .container-fluid{
-    background-color: rgb(177, 133, 141);
+    background-color:map-get($color, fondo);
   }
   
   .btn{
     border: rgb(158, 74, 89)(--bs-btn-border-width)
      solid rgb(158, 74, 89)(--bs-btn-border-color);
-     :hover{
+     &:hover{
         color: white;
         background-color: rgb(158, 74, 89);
         border-color: rgb(158, 74, 89);
@@ -50,7 +55,7 @@
      color: white;
      border-color: rgb(158, 74, 89);
      background-color: rgb(158, 74, 89);
-     :active{
+     &:active{
         background-color: rgb(158, 74, 89);
         border-color: rgb(158, 74, 89);
         --bs-btn-focus-shadow-rgb: 158, 74, 89;
@@ -64,11 +69,32 @@
   
   .dropdown-item{
     color: black;
-    :hover{
+    &:hover{
         background-color: rgb(158, 74, 89);
         color: white;
         border-radius: 5px;
         display: inline;
     }
   }
+  
+  .carousel-inner{
+    width: 100vw;
+    height: auto;
+    .carousel-item{
+      width: 100vw;
+      height: auto;
+      &:active{
+        @include centrado;
+        width: auto;
+        height: auto; 
+       }
+
+    }
+     .carou{
+      width: 100vw;
+      height: 100vh;
+    }
+    
+  }
+
   
