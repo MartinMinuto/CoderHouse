@@ -1,0 +1,67 @@
+  
+  .centrado{
+    @include centrado;
+  }
+  
+  .footer-left{
+    text-align: center;
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+        a{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            color: white;
+            &:hover{
+                font-size: 1.5rem;
+                color: rgb(158, 74, 89);
+             }
+        }
+    }
+}
+
+  .footer-right{
+    text-align: center;
+  }
+  
+  .textofooter{
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .map2{
+    @include centrado;
+  }
+  
+  .map{
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  
+  @media (min-width: 992px) and (max-width: 1440px){
+    .footer-left{
+      text-align: center;
+    }
+    .footer-right{
+      text-align: right;
+    }
+    .map{
+      width: 50vw;
+      height: 25vh;
+    }
+    .textofooter{
+      font-size: 2rem;
+    }
+    .footer-left li a:hover{
+      font-size: 1.8rem;
+    }  
+    #footerbox{
+      display: flex;
+      justify-content: space-around;
+    }
+  }
