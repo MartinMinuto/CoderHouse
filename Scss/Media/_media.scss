@@ -2,7 +2,7 @@
   .promocion h1{
     text-align: center;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 5px;
   }
   
   @media (min-width: 376px) and (max-width: 768px){
@@ -23,7 +23,7 @@
     }
   }
   
-  @media (min-width: 1441px) and (max-width: 4000px){
+  @media (min-width: 1441px) and (max-width: 1600px){
     .promocion h1{
       font-size: 5rem;
     }
@@ -31,48 +31,13 @@
   
   .carousel-item{
     width: 100vw;
-    height: 45vh;
-  }
-  
-  @media (min-width: 376px) and (max-width: 425px){
-    .carousel-item{
-      width: 100vw;
-      height: 65vh;
-    }
-  }
-  
-  @media (min-width: 426px) and (max-width: 768px){
-    .carousel-item{
-      width: 100vw;
-      height: 75vh;
-    }
-  }
-  
-  @media (min-width: 769px) and (max-width: 1023px){
-    .pcarousel-item{
-      width: 100vw;
-      height: 80vh;
-    }
-  }
-  
-  @media (min-width: 1024px) and (max-width: 1440px){
-    .carousel-item{
-      width: 100vw;
-      height: 95vh;
-    }
-  }
-  
-  @media (min-width: 1441px) and (max-width: 4000px){
-    .carousel-item{
-      width: 100vw;
-      height: 100vh;
-    }
+    height: 100vh;
   }
   
   .articulo{
     text-align: center;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 5px;
   }
   
   @media (min-width: 376px) and (max-width: 768px){
@@ -93,7 +58,7 @@
     }
   }
   
-  @media (min-width: 1441px) and (max-width: 4000px){
+  @media (min-width: 1441px) and (max-width: 1600px){
     .articulo{
       font-size: 2.5rem;
     }
@@ -102,7 +67,7 @@
   .articulo2 h2{
     text-align: center;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 5px;
   }
   
   @media (min-width: 376px) and (max-width: 768px){
@@ -123,7 +88,7 @@
     }
   }
   
-  @media (min-width: 1441px) and (max-width: 4000px){
+  @media (min-width: 1441px) and (max-width: 1600px){
     .articulo2 h2{
       font-size: 5rem;
     }
@@ -131,7 +96,7 @@
   
   .abajo .imagen{
     width: 100vw;
-    padding: 10px;
+    padding: 5px;
   }
   
   @media (min-width: 426px) and (max-width: 1440px){
@@ -164,7 +129,7 @@
     }
   }
   
-  @media (min-width: 1025px) and (max-width: 4000px){
+  @media (min-width: 1025px) and (max-width: 1600px){
     .video{
       width: 80vw;
       height: 50vh;

@@ -174,12 +174,12 @@ nav {
     height: 110vh;
   }
 }
-@media (min-width: 1441px) and (max-width: 2560px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .one2 {
     height: 60vh;
   }
 }
-@media (min-width: 768px) and (max-width: 2560px) {
+@media (min-width: 768px) and (max-width: 1600px) {
   .parafo {
     font-size: 1.8rem;
   }
@@ -192,46 +192,70 @@ nav {
     height: 80vh;
   }
 }
+.Galeria {
+  width: 100%;
+  height: 100%;
+}
+
 .Galeria-grilla {
-  width: 100vw;
+  padding-left: 10vw;
+  width: 90vw;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(5, 30vh);
   grid-template-areas: "imagen1 imagen2 imagen2" "imagen1 imagen3 imagen3" "imagen4 imagen4 imagen5" "imagen4 imagen4 imagen5" "imagen6 imagen6 imagen6";
-  gap: 5px;
+  gap: 10px;
 }
 .Galeria-grilla > img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
   transition: 1s;
 }
 .Galeria-grilla > img:hover {
   transform: scale(1.1);
+  transition: 0.8s;
 }
 
+@media (min-width: 426px) and (max-width: 768px) {
+  .Galeria {
+    height: 200%;
+  }
+}
 .imagen1 {
   grid-area: imagen1;
+  max-width: 1400px;
+  max-height: 1400px;
 }
 
 .imagen2 {
-  grid-area: imagen2;
+  grid-area: imagen6;
+  max-width: 2100px;
+  max-height: 700px;
 }
 
 .imagen3 {
   grid-area: imagen3;
+  max-width: 1600px;
+  max-height: 700px;
 }
 
 .imagen4 {
   grid-area: imagen4;
+  max-width: 1600px;
+  max-height: 1600px;
 }
 
 .imagen5 {
   grid-area: imagen5;
+  max-width: 1000px;
+  max-height: 1600px;
 }
 
 .imagen6 {
-  grid-area: imagen6;
+  grid-area: imagen2;
+  max-width: 1600px;
+  max-height: 1400px;
 }
 
 .MainGaleria {
@@ -258,7 +282,7 @@ nav {
     font-size: 4rem;
   }
 }
-@media (min-width: 1441px) and (max-width: 4000px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .MainGaleria h1 {
     font-size: 5rem;
   }
@@ -282,7 +306,7 @@ nav {
 .footer-left li a {
   display: flex;
   justify-content: space-around;
-  padding: 10px;
+  padding: 15px;
   color: white;
 }
 .footer-left li a:hover {
@@ -307,9 +331,14 @@ nav {
 
 .map {
   width: 100vw;
-  height: 50vh;
+  height: 30vh;
 }
 
+@media (min-width: 430px) and (max-width: 991px) {
+  .map {
+    width: 75vw;
+  }
+}
 @media (min-width: 992px) and (max-width: 1440px) {
   .footer-left {
     text-align: center;
@@ -335,7 +364,7 @@ nav {
 .promocion h1 {
   text-align: center;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 5px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -353,50 +382,20 @@ nav {
     font-size: 4rem;
   }
 }
-@media (min-width: 1441px) and (max-width: 4000px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .promocion h1 {
     font-size: 5rem;
   }
 }
 .carousel-item {
   width: 100vw;
-  height: 45vh;
+  height: 100vh;
 }
 
-@media (min-width: 376px) and (max-width: 425px) {
-  .carousel-item {
-    width: 100vw;
-    height: 65vh;
-  }
-}
-@media (min-width: 426px) and (max-width: 768px) {
-  .carousel-item {
-    width: 100vw;
-    height: 75vh;
-  }
-}
-@media (min-width: 769px) and (max-width: 1023px) {
-  .pcarousel-item {
-    width: 100vw;
-    height: 80vh;
-  }
-}
-@media (min-width: 1024px) and (max-width: 1440px) {
-  .carousel-item {
-    width: 100vw;
-    height: 95vh;
-  }
-}
-@media (min-width: 1441px) and (max-width: 4000px) {
-  .carousel-item {
-    width: 100vw;
-    height: 100vh;
-  }
-}
 .articulo {
   text-align: center;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 5px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -414,7 +413,7 @@ nav {
     font-size: 2.2rem;
   }
 }
-@media (min-width: 1441px) and (max-width: 4000px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .articulo {
     font-size: 2.5rem;
   }
@@ -422,7 +421,7 @@ nav {
 .articulo2 h2 {
   text-align: center;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 5px;
 }
 
 @media (min-width: 376px) and (max-width: 768px) {
@@ -440,14 +439,14 @@ nav {
     font-size: 4rem;
   }
 }
-@media (min-width: 1441px) and (max-width: 4000px) {
+@media (min-width: 1441px) and (max-width: 1600px) {
   .articulo2 h2 {
     font-size: 5rem;
   }
 }
 .abajo .imagen {
   width: 100vw;
-  padding: 10px;
+  padding: 5px;
 }
 
 @media (min-width: 426px) and (max-width: 1440px) {
@@ -479,7 +478,7 @@ nav {
     font-size: 3rem;
   }
 }
-@media (min-width: 1025px) and (max-width: 4000px) {
+@media (min-width: 1025px) and (max-width: 1600px) {
   .video {
     width: 80vw;
     height: 50vh;
